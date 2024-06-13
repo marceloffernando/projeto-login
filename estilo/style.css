@@ -7,10 +7,7 @@
     padding: 0px;
     box-sizing: border-box;
 }
-::-webkit-scrollbar{
-    width: 0px;
-    height: 0px;
-}
+
 body, html{
     background-color: black;
     height: 100vh;
@@ -33,7 +30,7 @@ section#login{
     width: 300px;
     height: 400px;
     border-radius: 20px;
-    overflow: auto; 
+    overflow: hidden; 
     box-shadow: 0px 0px 8px rgba(255, 255, 255, 0.918);
 
     transform: translate(-50%, -50%);
