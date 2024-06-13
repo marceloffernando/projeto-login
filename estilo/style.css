@@ -22,19 +22,19 @@ label{
 }
 section#login{
     position: absolute;
-    top: 50%;             /*codigo de centralização*/
+    top: 50%;             
     left: 50%;
    
     background-color: white;
     width: 250px;
     height: 400px;
     border-radius: 20px;
-    overflow: hidden; /*oq tiver fora da borda fica escondido*/
+    overflow: hidden; 
     box-shadow: 0px 0px 8px rgba(255, 255, 255, 0.918);
 
     transform: translate(-50%, -50%);
-    transition: width 0.3s, heigth 0.3s;/*animação durante a troca de tamanho de telas*/
-    transition-timing-function: ease; /*suavisa a animação*/
+    transition: width 0.3s, heigth 0.3s;
+    transition-timing-function: ease; 
 }
 div#imagem{
     display: block;
@@ -51,14 +51,11 @@ div#formulario > h1{
     text-align: center;
     padding: 10px;
 }
-div.campo > i{
-    
-}
+
 div.campo > input{
     font-size: 1em;
     height: 100%;
-    transform: translateY(-5px); /*muda a posição da div para cima*/
-    
+    transform: translateY(-5px); 
 }
 form > input[type=submit]{
     display: block;
