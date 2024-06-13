@@ -33,7 +33,7 @@ section#login{
     width: 300px;
     height: 400px;
     border-radius: 20px;
-    overflow: hidden; 
+    overflow: auto; 
     box-shadow: 0px 0px 8px rgba(255, 255, 255, 0.918);
 
     transform: translate(-50%, -50%);
