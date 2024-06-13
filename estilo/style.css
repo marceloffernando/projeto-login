@@ -7,6 +7,10 @@
     padding: 0px;
     box-sizing: border-box;
 }
+::-webkit-scrollbar{
+    width: 0px;
+    height: 0px;
+}
 body, html{
     background-color: black;
     height: 100vh;
@@ -36,6 +40,7 @@ section#login{
     transition: width 0.3s, heigth 0.3s;
     transition-timing-function: ease; 
 }
+
 div#imagem{
     display: block;
     background: black url(../imagens/pexels-harschshivam-2007647.jpg) no-repeat;
