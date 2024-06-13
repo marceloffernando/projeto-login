@@ -1,0 +1,60 @@
+@charset "UTF-8";
+
+/* 
+pequenas telas: até 600px
+celular: de 600px até 768px
+tablet: 768px até 992px 
+desktop: 992px até 1200px
+grandes telas: acima de 1200px
+*/
+
+
+
+
+@media screen and (min-width: 768px) and (max-width: 992px){
+    body{
+        background-image: linear-gradient(to top, rgba(9, 9, 41, 0.89), black);
+    }
+    section#login{
+        width: 80vw;
+    }
+    div#imagem{
+        float: left;
+        width: 30%;
+        height: 100%;
+    }
+    div#formulario{
+        float: right;
+        width: 70%;
+    }
+    form > div.campo > input[type=email]{
+        width: 90%;
+    }
+    div.campo > input[type=password]{
+        width: 90%;}
+}
+
+@media screen and (min-width: 992px){
+    body{
+        background-image: linear-gradient(to top, rgba(9, 9, 41, 0.89), black);
+    }
+    section#login{
+        width: 950px;
+    }
+    div#imagem{
+        float: left;
+        width: 40%;
+        height: 100%;
+    }
+    div#formulario{
+        float: right;
+        width: 60%;
+    }
+    form > div.campo > input[type=email]{
+        width: 90%;
+    }
+    div.campo > input[type=password]{
+        width: 90%;}
+    
+
+}
